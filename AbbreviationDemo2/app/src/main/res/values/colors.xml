@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style Guide: Colors (Transitional) -->
+    <color name="theme">@color/blue_primary</color>
+
+    <!-- Style Guide: Colors (Primary) -->
+    <color name="white_primary">#FFFFFF</color>
+    <color name="gray_primary">#4B4B4B</color>
+    <color name="blue_primary">#0066CC</color>
+    <color name="purple_primary">#8D42C8</color>
+    <color name="pink_primary">#AB3192</color>
+
+    <!-- Style Guide: Colors (Secondary) -->
+    <color name="white_secondary">#FDF6EE</color>
+    <color name="gray_secondary">#232323</color>
+    <color name="blue_secondary">#012D6A</color>
+    <color name="purple_secondary">#541785</color>
+    <color name="pink_secondary">#821C71</color>
+
+    <!-- Style Guide: Colors (Tertiary) -->
+    <color name="white_tertiary">#F9FBFE</color>
+    <color name="gray_tertiary">#EEEEEE</color>
+    <color name="blue_tertiary">#629AEA</color>
+    <color name="purple_tertiary">#B175E1</color>
+    <color name="pink_tertiary">#E164BE</color>
+
+    <!-- Style Guide: Colors (Light) -->
+    <color name="light_gray">#F9F9F9</color>
+    <color name="blue_light">#DFEDFB</color>
+    <color name="purple_light">#F1DFFF</color>
+    <color name="pink_light">#FAE6F4</color>
+
+    <!-- Style Guide: Colors (Status) -->
+    <color name="status_red">#DB1418</color>
+    <color name="status_green">#158441</color>
+    <color name="status_yellow">#FF9900</color>
+    <color name="status_disabled">#6B6B6B</color>
+
+    <!-- Design System Color Scheme: END -->
+
+    <!-- Transparency -->
+    <color name="card_stroke">#1A232323</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="overlay_light">#664B4B4B</color>
+    <color name="overlay_dark">#BF4B4B4B</color>
+
+    <color name="overlay_white">#9FFFFFFF</color>
+    <color name="overlay_semi">#7F7F7F7F</color>
+</resources>

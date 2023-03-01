@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SchoolTabCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">@dimen/task_card_elevation</item>
+        <item name="theme">@style/Theme.MaterialComponents.Light</item>
+        <item name="cardCornerRadius">@dimen/app_general_xs</item>
+        <item name="android:layout_marginStart">@dimen/app_general_xs</item>
+        <item name="android:layout_marginEnd">@dimen/app_general_xs</item>
+        <item name="android:layout_marginBottom">@dimen/app_general_xs</item>
+    </style>
+</resources>

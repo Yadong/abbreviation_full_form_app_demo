@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_section_error"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_error_background"
+    android:visibility="gone"
+    android:clickable="true"
+    android:focusable="true"
+    app:cornerRadius="@dimen/app_general_m"
+    tools:visibility="visible">
+
+    <TextView
+        android:id="@+id/error_message"
+        style="@style/Font_Body_Regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/app_general_s"
+        android:layout_marginEnd="@dimen/app_general_s"
+        android:gravity="center"
+        android:text="@string/network_error"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button_retry"/>
+
+    <Button
+        android:id="@+id/button_retry"
+        style="@style/Button_Primary_Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/app_general_s"
+        android:text="@string/home_retry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/error_message" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

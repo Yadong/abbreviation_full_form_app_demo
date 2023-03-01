@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/app_general_xs"
+    android:layout_marginTop="@dimen/app_general_xs"
+    android:layout_marginBottom="@dimen/app_general_xs"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/lf"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        style="@style/Font_Title_Default"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="lf"/>
+
+    <TextView
+        android:id="@+id/freq"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginEnd="40dp"
+        android:textAppearance="@style/Font_Body_Bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lf"
+        tools:text="freq"/>
+
+    <TextView
+        android:id="@+id/since"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:textAppearance="@style/Font_Body_Regular"
+        app:layout_constraintTop_toBottomOf="@id/freq"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="since"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

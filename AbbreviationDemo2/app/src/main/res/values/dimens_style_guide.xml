@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="twelve">12dp</dimen>
+    <dimen name="three">3dp</dimen>
+    <dimen name="two">2dp</dimen>
+    <dimen name="one">1dp</dimen>
+    <dimen name="zero">0dp</dimen>
+
+    <!-- Universal Spacing Units-->
+    <dimen name="app_general_xss">4dp</dimen>
+    <dimen name="app_general_xs">8dp</dimen>
+    <dimen name="app_general_s">16dp</dimen>
+    <dimen name="app_general_m">24dp</dimen>
+    <dimen name="app_general_l">32dp</dimen>
+    <dimen name="app_general_xl">40dp</dimen>
+    <dimen name="app_general_xxl">48dp</dimen>
+    <dimen name="app_general_xxxl">64dp</dimen>
+    <dimen name="app_general_maxl">128dp</dimen>
+
+    <!-- Default fonts, per the Android Design guidelines. -->
+    <dimen name="font_h1">60sp</dimen>
+    <dimen name="font_title_hero">36sp</dimen>
+    <dimen name="font_title_default">22sp</dimen>
+    <dimen name="font_title_small">18sp</dimen>
+    <dimen name="font_subtitle">18sp</dimen>
+    <dimen name="font_body">16sp</dimen>
+    <dimen name="font_detail">14sp</dimen>
+    <dimen name="font_overline">13sp</dimen>
+    <dimen name="font_footnote">11sp</dimen>
+
+    <dimen name="task_card_circle_size">@dimen/app_general_xxl</dimen>
+    <dimen name="task_card_elevation">4dp</dimen>
+
+</resources>

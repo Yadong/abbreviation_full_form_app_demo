@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Font_Base">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/gray_secondary</item>
+    </style>
+
+    <style name="Font_Base_Work_Sans">
+        <item name="android:fontFamily">@font/work_sans_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/gray_secondary</item>
+    </style>
+
+    <style name="Font_Base_Work_Sans_Bold">
+        <item name="android:fontFamily">@font/work_sans_bold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/gray_secondary</item>
+    </style>
+
+    <style name="Font_Base_Medium" parent="Font_Base">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="Font_Base_Bold" parent="Font_Base">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <!--Headers-->
+    <style name="Font_H1" parent="Font_Base_Work_Sans_Bold">
+        <item name="android:textSize">@dimen/font_h1</item>
+    </style>
+
+    <style name="Font_Title_Hero" parent="Font_Base_Work_Sans_Bold">
+        <item name="android:textSize">@dimen/font_title_hero</item>
+    </style>
+
+    <style name="Font_Title_Default" parent="Font_Base_Work_Sans_Bold">
+        <item name="android:textSize">@dimen/font_title_default</item>
+    </style>
+
+    <style name="Font_Title_Regular" parent="Font_Base_Work_Sans">
+        <item name="android:textSize">@dimen/font_title_default</item>
+    </style>
+
+    <!--Subtitle-->
+    <style name="Font_Subtitle_Default" parent="Font_Base_Bold">
+        <item name="android:textSize">@dimen/font_subtitle</item>
+    </style>
+
+    <style name="Font_Subtitle_Small" parent="Font_Base_Bold">
+        <item name="android:textSize">@dimen/font_body</item>
+    </style>
+
+    <!-- Option Item -->
+    <style name="Font_Option" parent="Font_Base_Medium">
+        <item name="android:textSize">@dimen/font_body</item>
+    </style>
+
+    <!--Body-->
+    <style name="Font_Body_Regular" parent="Font_Base">
+        <item name="android:textSize">@dimen/font_body</item>
+    </style>
+
+    <style name="Font_Body_Bold" parent="Font_Base_Bold">
+        <item name="android:textSize">@dimen/font_body</item>
+    </style>
+
+    <!--Detail-->
+    <style name="Font_Detail_Regular" parent="Font_Base">
+        <item name="android:textSize">@dimen/font_detail</item>
+    </style>
+
+    <style name="Font_Detail_Bold" parent="Font_Base_Medium">
+        <item name="android:textSize">@dimen/font_detail</item>
+    </style>
+
+    <!--Overline-->
+    <style name="Font_Overline_Default" parent="Font_Base_Bold">
+        <item name="android:textSize">@dimen/font_footnote</item>
+    </style>
+
+    <style name="Font_Overline_Default_2" parent="Font_Base_Bold">
+        <item name="android:textSize">@dimen/font_footnote</item>
+        <item name="android:letterSpacing">0.091</item>
+    </style>
+
+    <!--Footnote-->
+    <style name="Font_Footnote_Default" parent="Font_Base_Medium">
+        <item name="android:textSize">@dimen/font_footnote</item>
+    </style>
+
+    <style name="Font_Footnote_Light" parent="Font_Base_Medium">
+        <item name="android:textSize">@dimen/font_footnote</item>
+        <item name="android:textColor">@color/white_primary</item>
+    </style>
+
+    <!--Accent-->
+    <style name="Font_Accent" parent="Font_Base">
+        <item name="android:textSize">@dimen/font_subtitle</item>
+    </style>
+
+    <!--Button-->
+    <style name="Font_Button" parent="Font_Base_Medium">
+        <item name="android:textSize">@dimen/font_body</item>
+    </style>
+
+</resources>
